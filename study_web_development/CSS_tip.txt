@@ -1,0 +1,13 @@
+CSS 기본 문법
+
+h1 {
+font-size: 64px;
+text-align: center;
+}
+
+h1 --> 스타일링 하고 싶은 요소
+
+font-size, text-align --> 속성
+64px, center --> 속성 값
+
+h1의 폰트 사이즈를 64px로 설정하며, h1의 글을 가운데 정렬
