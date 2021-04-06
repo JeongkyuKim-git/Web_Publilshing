@@ -11,3 +11,32 @@ CSS: Cascading Style Sheets
 
 JS: JavaScript
 (웹사이트의 인터랙션을 담당!)
+
+<!DOCTYPE> 선언
+HTML 파일을 쓸 때는 가장 먼저 <!DOCTYPE> 선언을 써야 합니다. 이전의 html 버전을 사용하려면 <!DOCTYPE>을 복잡하게 써야 하지만, 그냥 최신 버전인 HTML 5를 사용하기 위해서는 이렇게만 쓰면 됩니다:
+
+<!DOCTYPE html>
+
+
+<title> 태그
+페이지의 제목은 <title> 태그에 써주면 됩니다. 브라우저의 탭이나 방문 기록에 나와 있는 바로 그 제목이 이 곳에 들어갑니다.
+  
+<title>My First Website</title>
+
+
+한 페이지에 여러 개의 머리말이 있을 수 있는데요. 그 중 가장 중요한 머리말은 <h1>(heading 1), 그 다음으로 중요한 머리말은 <h2>(heading 2). 이런 식으로 <h6>(heading 6)까지 작성할 수 있습니다.
+  
+<h1>머리말 1</h1>
+<h2>머리말 2</h2>
+<h3>머리말 3</h3>
+<h4>머리말 4</h4>
+<h5>머리말 5</h5>
+<h6>머리말 6</h6>
+
+
+<p> 태그
+보통 문단은 <p>(paragraph) 태그 안에 넣습니다. 물론 직접 설정할 수도 있지만 <p> 태그 위, 아래에는 기본적으로 여백이 조금씩 있습니다.
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
