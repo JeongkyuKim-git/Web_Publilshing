@@ -8,3 +8,6 @@ HTML: HyperText Markup Language
 
 CSS: Cascading Style Sheets
 (웹사이트의 스타일을 담당!)
+
+JS: JavaScript
+(웹사이트의 인터랙션을 담당!)
