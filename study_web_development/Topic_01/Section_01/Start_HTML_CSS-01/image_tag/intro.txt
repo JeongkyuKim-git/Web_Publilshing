@@ -18,6 +18,7 @@ HTML에서 무언가의 크기를 설정할 때는 기본적으로 '픽셀(px)' 
  
 # 퍼센트
 길이를 픽셀 말고 퍼센트(%)로 설정할 수도 있습니다.
+%는 브라우저의 크기입니다.
 
 example) 
 <img src="https://i.imgur.com/CDPKjZJ.jpg" width="100%">
