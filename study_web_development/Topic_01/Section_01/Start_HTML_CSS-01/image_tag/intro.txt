@@ -9,3 +9,17 @@ img tag의 기본 설명
 하위의 하위 폴더는 page2.html, page3.html로 sub-sub page입니다.
 
 --> 이번 Chapter에서는 index.html page의 img tag
+
+# 픽셀
+HTML에서 무언가의 크기를 설정할 때는 기본적으로 '픽셀(px)' 단위를 사용합니다.
+픽셀은 화면을 구성하는 기본 단위입니다.
+각 정사각형을 픽셀이라고 부릅니다.  
+만약 어떤 이미지의 가로 길이가 100px로 설정되었다면, 가로로 저 작은 정사각형 100개가 있다는 거죠.
+ 
+# 퍼센트
+길이를 픽셀 말고 퍼센트(%)로 설정할 수도 있습니다.
+
+example) 
+<img src="https://i.imgur.com/CDPKjZJ.jpg" width="100%">
+<img src="https://i.imgur.com/CDPKjZJ.jpg" width="50%">
+<img src="https://i.imgur.com/CDPKjZJ.jpg" width="25%">
