@@ -1,0 +1,14 @@
+<style>
+  p {
+    # font-size --> 폰트 크기 (px, %)
+    font-size: 32px;
+    
+    # text-align --> 글 위치 (left, right, center)
+    text-align:center;
+    
+    # text-decoration --> 글 밑줄 (underline, overline, line-through, none)
+    text-decoration:
+      line-through;
+      
+  }
+</style>
