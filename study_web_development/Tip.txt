@@ -1,14 +1,21 @@
+<!-- HTML 주석 -->
+
 <style>
+  /* CSS 주석 */
   p {
-    # font-size --> 폰트 크기 (px, %)
+    /* font-size --> 폰트 크기 (px, %) */
     font-size: 32px;
     
-    # text-align --> 글 위치 (left, right, center)
+    /* text-align --> 글 위치 (left, right, center) */
     text-align:center;
     
-    # text-decoration --> 글 밑줄 (underline, overline, line-through, none)
+    /* text-decoration --> 글 밑줄 (underline, overline, line-through, none) */
     text-decoration:
       line-through;
-      
-  }
+    
+    # a 태그로 할 경우
+    .no-decoration {
+      text-decoration: none;
+    }
+    /* <a class="no-decoration" href="https://www.google.com" target="_blank">구글로 가는 링크</a> */
 </style>
