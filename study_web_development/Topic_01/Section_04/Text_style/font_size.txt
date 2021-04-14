@@ -1,0 +1,25 @@
+# 폰트 크기
+1. Absolute (절대적)
+px, pt
+
+2. Relative (상대적)
+em, %
+
+em, %는 부모 기준으로 크기가 상대적으로 커진다.
+
+Ex_01) Hex형 이름을 입력하는 방법
+.div1 {
+  font-size: 2em;
+}
+
+.div2 {
+  font-size: 2em;
+}
+/*div2는 2em + 2em*/
+
+<div class="div1">
+  div1
+  <div class="div2">
+  div2
+  </div>
+</div>
