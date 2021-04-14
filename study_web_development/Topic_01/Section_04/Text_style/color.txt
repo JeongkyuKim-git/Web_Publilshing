@@ -5,3 +5,26 @@ https://www.w3schools.com/w3css/w3css_colors.asp
 https://htmlcolorcodes.com
 
 
+# color 바꾸는 방법
+Ex_01) Hex형 이름을 입력하는 방법
+h1 {
+  color: #61F96B;
+}
+
+Ex_02) 색상 이름을 입력하는 방법
+h1 {
+  color: orange;
+}
+
+Ex_03) rgb형 이름을 입력하는 방법
+h1 {
+  color: rgb(97, 249, 107);
+}
+
+
+Ex_04) rgbh형 이름을 입력하는 방법
+h1 {
+  color: rgba(255,255,255,1);
+}
+--> hex코드 6글자 뒤에 FF를 추가하면 가장 불투명하게, 00을 추가하면 투명하게 된다.
+참조 URL: https://kilianvalkhof.com/2016/css-html/css-hexadecimal-colors-with-transparency-a-conversion-tool/
